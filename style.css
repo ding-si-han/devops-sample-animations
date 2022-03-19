@@ -1,0 +1,43 @@
+body {
+	font-family: 'Alatsi', sans-serif;
+	margin: 0;
+	overflow: hidden;
+	background: '#489744';
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+}
+
+.title {
+	font-size: 5vw;
+	color: white;
+	color: #c2202d;
+	display: block;
+}
+
+.subtitle {
+	font-size: 2vw;
+	display: block;
+	color: #c2202d;
+}
+
+.question-card {
+	border-radius: 10px;
+	/* border: 5px solid pink; */
+	background: white;
+	padding: 20px;
+}
+
+canvas {
+	width: 100%;
+}
