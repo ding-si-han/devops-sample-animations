@@ -21,20 +21,18 @@ body {
 .title {
 	font-size: 5vw;
 	color: white;
-	color: #c2202d;
 	display: block;
 }
 
 .subtitle {
 	font-size: 2vw;
 	display: block;
-	color: #c2202d;
+	color: white;
 }
 
 .question-card {
 	border-radius: 10px;
-	/* border: 5px solid pink; */
-	background: white;
+	background: #e53450;
 	padding: 20px;
 }
 
